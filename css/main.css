@@ -1,0 +1,7 @@
+.page {
+  display: none;
+}
+/* Find element with both classes */
+.page.active {
+  display: block;
+}
