@@ -1,7 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
 .page {
   display: none;
+  width: 100%;
+  margin: auto;
 }
-/* Find element with both classes */
 .page.active {
   display: block;
+}
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+p,
+input,
+label {
+  text-align: center;
+  font-size: 1.25rem;
+}
+ul li {
+  font-size: 5rem;
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 2%;
+  color: white;
+  background-color: darkblue;
+}
+
+#btnSend {
+  margin-top: 5%;
+  font-size: 1.25rem;
+}
+
+#btnBack {
+  font-size: 1.25rem;
+  margin-bottom: 10%;
 }
